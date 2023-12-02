@@ -90,7 +90,7 @@ public class AutoModeSelector {
             case TEST_TRAJECTORY:
                 return Optional.of(new CpThree());
             case NCP_2_5:
-                return Optional.of(new DoNothingAutoMode());
+                return Optional.of(new Moveplusdrive());
             case NCP_3:
                 return Optional.of(new DoNothingAutoMode());
             case CENTER_1:
